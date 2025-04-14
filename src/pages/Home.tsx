@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ShoppingBag, Truck, RotateCcw, HeadphonesMic } from 'lucide-react';
+import { ArrowRight, ShoppingBag, Truck, RotateCcw, Headphones } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
 import { Button } from '@/components/ui/button';
 import ProductCard from '../components/ProductCard';
@@ -96,7 +95,7 @@ const Home = () => {
             </div>
             <div className="flex items-center gap-4">
               <div className="bg-primary/10 p-3 rounded-full">
-                <HeadphonesMic className="h-6 w-6 text-primary" />
+                <Headphones className="h-6 w-6 text-primary" />
               </div>
               <div>
                 <h3 className="font-medium">24/7 Support</h3>
